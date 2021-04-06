@@ -16,8 +16,6 @@ function loadkmers(model_path = "models/r9.4_70bps.u_to_t_rna.5mer.template.mode
     end
     return kmers
 end
-<<<<<<< HEAD
-=======
 
 
 """
@@ -56,4 +54,3 @@ function loadfasta(path::String)
     close(f)
     return seq
 end
->>>>>>> f4bcb092a95055bd2b7506ddaa0e5f074e336111
